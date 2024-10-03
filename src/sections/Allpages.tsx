@@ -80,7 +80,7 @@ export default function Allpages() {
                     />
                 </div>
 
-                <div className="absolute inset-0 flex  opacity-30 p-20 overflow-hidden" style={{ transform: 'translate(-10%, 39%)' }}>
+                <div className="absolute inset-0 flex  opacity-20 p-20 overflow-hidden" style={{ transform: 'translate(-10%, 39%)' }}>
                 <Image 
                     src={Steam} 
                     alt="Erik Games" 
@@ -96,7 +96,7 @@ export default function Allpages() {
                 />
                 </div>
 
-                <div className="absolute inset-0 flex items-center justify-center opacity-30 p-20 overflow-hidden" style={{ transform: 'translate(0%, 21%)' }}>
+                <div className="absolute inset-0 flex items-center justify-center opacity-10 p-20 overflow-hidden" style={{ transform: 'translate(0%, 21%)' }}>
                 <Image 
                     src={Unreal} 
                     alt="Erik Games" 
