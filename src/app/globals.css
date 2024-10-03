@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .btn {
+    @apply py-2 px-4 rounded-2xl font-medium inline-flex items-center justify-center tracking-tight;
+  }
+  .btn-primary {
+    @apply bg-black text-white
+  }
+  .btn-text {
+    @apply bg-transparent text-black hover:border border-gray-500;
+  }
+  .logo-ticker-image {
+    @apply h-8 w-auto;
+  }
+  .tag {
+    @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-xl tracking-tight;
+  }
+  .section-title {
+    @apply text-center text-3xl md:text-[48px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-5;
+  }
+  .section-title2 {
+    @apply text-center text-3xl md:text-[48px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-white to-[#001E80] text-transparent bg-clip-text mt-5;
+  }
+  .section-description {
+    @apply text-center text-[22px] leading-[30px] tracking-tight text-[#010D3E];
+  }
+  .section-heading {
+    @apply  mx-auto;
+  }
+
+  .card {
+    @apply p-10 border border-solid border-[#222222]/10 rounded-3xl shadow-[0_7px_14px_#EAEAEA] max-w-xs w-full;
+  }
+}
+@layer base {
+  .nav-item {
+    @apply px-2 py-1 md:px-4 md:py-1.5 rounded-full text-gray-600 text-sm font-semibold hover:bg-white/10 hover:text-white transition duration-300;
+  }
+  
+  /* Smooth Scroll Ekleniyor */
+  html {
+    scroll-behavior: smooth;
+  }
+}
