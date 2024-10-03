@@ -63,17 +63,17 @@ export default function Latest() {
                             </div>
                         </div>
                         
-                        <div className="col-span-2 md:space-y-5 space-y-3 p-2">
+                        <div className="col-span-2 md:space-y-3 space-y-2 p-2">
                             {newsItems.map((item, index) => (
                                 <div 
                                     key={index} 
                                     className="bg-[#64748b]  rounded-xl overflow-hidden flex transform transition-transform duration-300 hover:-translate-y-2"
                                 >
-                                    <div className="w-1/2 p-6 flex flex-col justify-center">
+                                    <div className="w-2/5 md:p-6 p-3 flex flex-col justify-center">
                                         <h3 className="md:font-bold font-small  text-white">{item.title}</h3>
                                         <p className="md:text-sm text-xs text-white">{item.source}</p>
                                     </div>
-                                    <div className="w-1/2">
+                                    <div className="w-3/5">
                                         <Image
                                             src={item.image}
                                             alt={item.title}
