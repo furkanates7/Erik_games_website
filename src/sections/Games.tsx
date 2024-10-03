@@ -47,11 +47,11 @@ export default function Games() {
                                             key={index} 
                                             className="bg-[#64748b] rounded-xl overflow-hidden flex transform transition-transform duration-300 hover:-translate-y-2"
                                     >
-                                            <div className="w-1/4 md:p-6 p-3 flex flex-col justify-center">
-                                        <h3 className="font-bold text-white">{item.title}</h3>
-                                        <p className="text-sm text-white">{item.source}</p>
+                                            <div className="w-1/3 md:p-6 p-3 flex flex-col justify-center">
+                                        <h3 className="md:font-bold font-small  text-white">{item.title}</h3>
+                                        <p className="md:text-sm text-xs text-white">{item.source}</p>
                                     </div>
-                                    <div className="w-3/4">
+                                    <div className="w-2/3">
                                         <Image
                                             src={item.image}
                                             alt={item.title}
