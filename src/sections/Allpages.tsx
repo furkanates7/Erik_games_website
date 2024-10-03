@@ -4,11 +4,11 @@ import React from 'react'
 import Image from 'next/image'
 import ErikImage from "@/assets/erik_image.png";
 import ErikText from "@/assets/erik_text.png";
-import Nintendo from "@/assets/Nintendo.png";
-import PS from "@/assets/PS.png";
-import Steam from "@/assets/Steam.png";
-import Unity from "@/assets/Unity.png";
-import Unreal from "@/assets/Unreal.png";
+import Nintendo from "@/assets/nintendo.png";
+import PS from "@/assets/ps.png";
+import Steam from "@/assets/steam.png";
+import Unity from "@/assets/unity.png";
+import Unreal from "@/assets/unreal.png";
 import Info from '@/sections/Info';
 import Latest from '@/sections/Latest';
 import Games from '@/sections/Games';
