@@ -5,6 +5,8 @@ import Footer from '../sections/Footer';
 import  Hero from '@/sections/Hero';
 import LogoTicker from '@/sections/LogoTicker';
 import Allpages from '@/sections/Allpages';
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <LogoTicker/>
       <Allpages/>
       <Footer/>
+      <Link href="/about">Hakkında Sayfasına Git</Link>
       </>
   ) 
 }
